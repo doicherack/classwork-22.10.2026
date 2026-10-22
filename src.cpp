@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdint>
-#include <bit>
+
 
 int main(){
      unsigned int input;
