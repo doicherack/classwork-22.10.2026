@@ -1,9 +1,10 @@
 #include <iostream>
 #include <cstdint>
-
+#include <clocale>
 
 int main(){
-     unsigned int input;
+    std::setlocale(LC_ALL, "Russian");
+    unsigned int input;
     std::cout << "Введите начальное 8-битное число (0-255): ";
     std::cin >> input;
 
