@@ -14,8 +14,8 @@ uint8_t Rotation(uint8_t current) {
 }
 
 int main() {
-    unsigned int input;
-    std::cout << "Enter an initial 8-bit number (0-255): ";
+    int input;
+    std::cout << "Enter an initial 8-bit number (-128 to 127 or 0 to 255): ";
     std::cin >> input;
     std::cout << "\n";
 
